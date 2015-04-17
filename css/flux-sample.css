@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.sample-message {
+    width: 100%;
+    margin: auto;
+    font-size: 3em;
+    padding-top: 10%;
+}
+
+.sample-btn {
+    margin-top: 30px;
+    font-size: 1.1em;
+    border: 2px solid #CCC;
+}
+
+.sample-btn:hover {
+    border: 2px solid #5AF;
+}
+
+.sample-dialog-cover {
+    position: absolute;
+    width:100%;
+    height:100%;
+    background-color:#999;
+    opacity: 0.8;
+}
+
+.sample-dialog {
+    background-color: #FAFAFA;
+    position:absolute;
+    width:300px;
+    height:100px;
+    left:50%;
+    top:30%;
+    margin: 0 0 0 -170px;
+    padding:20px;
+    border: 1px solid #CCC;
+}
+
+.sample-input {
+    width: 100%;
+    box-sizing: border-box;
+}
